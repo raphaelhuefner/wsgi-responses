@@ -2,18 +2,21 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
+bin/
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
+include/
 lib/
 lib64/
 parts/
@@ -24,6 +27,8 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+pip-selfcheck.json
+pyvenv.cfg
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

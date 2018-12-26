@@ -1,0 +1,10 @@
+coverage
+flake8
+isort
+pycodestyle
+pytest
+pytest-cov
+pytest-isort
+requests
+responses
+yapf
